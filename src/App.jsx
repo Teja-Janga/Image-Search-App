@@ -108,7 +108,7 @@ function App() {
             {noResults && (
                 <div className="error-container">
                     <img
-                        src="Error.jpg"
+                        src="src/assets/Error.jpg"
                         alt="No Results Found"
                         className="error-image"
                     />
