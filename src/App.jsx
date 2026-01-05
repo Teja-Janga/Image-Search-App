@@ -134,7 +134,7 @@ function App() {
                 })}
 
                 {loading && pageNum === 1 &&
-                    [...Array(6)].map((_, i) => 
+                    [...Array(8)].map((_, i) => 
                         <div key={i} className="skeleton-card"></div>
                     )
                 }
